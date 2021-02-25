@@ -1,3 +1,13 @@
 *{
-  
+
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.body{
+  background-color: rgb(60, 205, 156);
 }
