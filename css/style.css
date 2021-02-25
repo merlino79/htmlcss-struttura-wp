@@ -8,6 +8,14 @@
   clear: both;
 }
 
-.body{
-  background-color: rgb(60, 205, 156);
+body{
+  background-color: aquamarine;
+  width: 80%;
+  margin: auto;
+}
+
+header{
+  background-color: #9a88ab;
+  height: 150px;
+
 }
