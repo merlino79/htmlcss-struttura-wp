@@ -10,11 +10,20 @@
   clear: both;
 }
 
-body{
+.box{
   width: 80%;
-  height: auto;
-  margin: auto;
+ 
+  margin: 0 auto;
 }
+
+.banner{
+  
+  height: 500px;
+  background-color: rgb(229, 127, 255);
+  margin-top: 20px;
+}
+
+
 
 
 
@@ -33,44 +42,35 @@ header{
   padding-bottom: 50px;
 }
 
-.box{
-  width: 100%;
-  height: 300px;
-  background-color: aquamarine;
-  margin-top: 20px;
+
+.title{
+  
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: blueviolet;
 }
 
 main{
   width: 100%;
-  background-color: darkcyan;
+  height: 200px;
+  background-color: cornflowerblue;
+  margin-bottom: 20px;
+
 }
 
-main aside, .contect  {
+.col{
   float: left;
- 
-}
-
-aside{
-  width: 20%;
-  height: 500px;
-  background-color: bisque;
+  background-color: cadetblue ;
+  height: 600px;
   
 }
 
-.contect{
+.col-left, .col-right{
+  width: 20%;
+
+}
+
+.col-center{
   width: 56%;
-  height: 500px;
-  background-color: aqua;
   margin: 0 2%;
- 
-}
-
-
-
-footer{
-  width: 100%;
-  height: 60px;
-  background-color: blue;
-  margin-top: 20px;
-}
 }
